@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    	
+    	<!-- SEO -->
+    	
+        <title>Feudal Friday</title>
+        <meta name="description" content="__PAGE_DESCRIPTION__">
+        <meta name="keywords" content="__PAGE_KEYWORDS__">
+        <meta name="author" content="__PAGE_AUTHOR__">
+
+        <!-- Spiders must use meta description -->
+
+        <meta name="robots" content="noodp, noydir">
+
+        <!-- No Google Translate toolbar -->
+
+        <meta name="google" content="notranslate">
+        
+        <!-- Viewport and mobile -->
+        
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0, minimal-ui">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="MobileOptimized" content="320">
+        <meta http-equiv="cleartype" content="on">
+        <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do&text=X' rel='stylesheet' type='text/css'>
+
+        <!-- iOS web app -->
+        <!-- Note: more options here: https://gist.github.com/tfausak/2222823 -->
+
+        <!--
+    	<meta name="apple-mobile-web-app-capable" content="yes">
+    	<meta name="apple-mobile-web-app-title" content="__PAGE_TITLE__">
+    	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+        -->
+    	
+    	<!-- Icons -->
+        <!-- Note: One touch icon works but is a tad heavier (http://mathiasbynens.be/notes/touch-icons) -->
+    	
+        <!--
+        <link rel="apple-touch-iconprecomposed" sizes="152x152" href="assets/images/icons/apple-touch-icon-152x152.png">
+    	<link rel="icon" href="assets/images/icons/favicon.png">
+        <meta name="msapplication-TileImage" content="assets/images/icons/wp-tile-icon-144x144.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+    	-->
+        
+
+
+        <!--[if lt IE 9]>-->
+        <!--<script src="assets/js/ie.head.min.js"></script>
+        <link rel="stylesheet" href="assets/css/ie.min.css">-->
+        <!--<![endif]-->
+
+
+
+        <style>
+
+
+html,body {
+    background: url(http://subtlepatterns.com/patterns/dark_Tire.png);
+    text-align:center;
+    font-family: Oswald;
+    margin:0;
+    padding:0;
+}
+
+
+h1 {
+    font-size:4rem;
+    color:darkred;
+}
+
+h2 {
+    font-size:2rem;
+    color:#aa9;
+}
+
+p {
+    color: #777;
+}
+
+h1, h2 {
+    
+}
+
+img {
+    border-radius:50%;
+    padding:0 20px;
+    display:inline-block;
+}
+
+.losers {
+    position:relative;
+    list-style:none;
+    margin:0;
+    padding:0;
+    
+}
+
+.loser {
+    display:inline-block;
+    position:relative;
+}
+
+.loser:before {
+        content: 'X';
+        color:#c00;
+        font-family:'Nothing You Could Do';
+        font-size:240px;
+        position:absolute;
+        top:-80px;
+        left:30px;
+    }
+
+
+
+@-webkit-keyframes flamey-flamey {
+0% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+2px -10px 6px #FFDD33, -2px -15px 11px #FF8800,
+2px -25px 18px #FF2200;}
+19% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+2px -10px 6px #FFDD33, -2px -15px 11px #FF8800,
+2px -25px 18px #FF2200;}
+20% {text-shadow: 0 0 4px white, 0 -4px 3px #FFFF44,
+3px -9px 7px #FFDF33, -3px -14px 12px #FF9900,
+3px -24px 19px #FF3300;}
+39% {text-shadow: 0 0 4px white, 0 -4px 3px #FFFF44,
+3px -9px 7px #FFDF33, -3px -14px 12px #FF9900,
+3px -24px 19px #FF3300;}
+40% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+3px -8px 8px #FFFD44, -3px -12px 11px #FF8800,
+2px -25px 20px #FF2200;}
+59% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+3px -8px 8px #FFFD44, -3px -12px 11px #FF8800,
+2px -25px 20px #FF2200;}
+60% {text-shadow: 0 0 5px white, 0 -6px 5px #FFFF55,
+2px -7px 7px #FFDD33, -5px -13px 15px #FF7700,
+4px -24px 19px #FF4411;}
+79% {text-shadow: 0 0 5px white, 0 -6px 5px #FFFF55,
+2px -7px 7px #FFDD33, -5px -13px 15px #FF7700,
+4px -24px 19px #FF4411;}
+80% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+5px -8px 6px #FFEE33, -4px -12px 13px #FF8822,
+2px -26px 18px #FF2200;}
+100% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+ 5px -8px 6px #FFEE33, -4px -12px 13px #FF8822,
+2px -26px 18px #FF2200;}
+}
+
+@-moz-keyframes flamey-flamey {
+0% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+2px -10px 6px #FFDD33, -2px -15px 11px #FF8800,
+2px -25px 18px #FF2200;}
+19% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+2px -10px 6px #FFDD33, -2px -15px 11px #FF8800,
+2px -25px 18px #FF2200;}
+20% {text-shadow: 0 0 4px white, 0 -4px 3px #FFFF44,
+3px -9px 7px #FFDF33, -3px -14px 12px #FF9900,
+3px -24px 19px #FF3300;}
+39% {text-shadow: 0 0 4px white, 0 -4px 3px #FFFF44,
+3px -9px 7px #FFDF33, -3px -14px 12px #FF9900,
+3px -24px 19px #FF3300;}
+40% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+3px -8px 8px #FFFD44, -3px -12px 11px #FF8800,
+2px -25px 20px #FF2200;}
+59% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+3px -8px 8px #FFFD44, -3px -12px 11px #FF8800,
+2px -25px 20px #FF2200;}
+60% {text-shadow: 0 0 5px white, 0 -6px 5px #FFFF55,
+2px -7px 7px #FFDD33, -5px -13px 15px #FF7700,
+4px -24px 19px #FF4411;}
+79% {text-shadow: 0 0 5px white, 0 -6px 5px #FFFF55,
+2px -7px 7px #FFDD33, -5px -13px 15px #FF7700,
+4px -24px 19px #FF4411;}
+80% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+5px -8px 6px #FFEE33, -4px -12px 13px #FF8822,
+2px -26px 18px #FF2200;}
+100% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+ 5px -8px 6px #FFEE33, -4px -12px 13px #FF8822,
+2px -26px 18px #FF2200;}
+}
+
+h1{
+-webkit-animation: flamey-flamey 1s infinite;
+  -moz-animation: flamey-flamey 1s infinite;
+}</style>
+	</head>  
+	<body>

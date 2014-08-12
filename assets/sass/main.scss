@@ -1,0 +1,168 @@
+// General imports ------------------------------------------------------------
+//
+// These imports don't generate CSS, but make defined variables, functions,
+// and mixins available for further usage
+
+@import 'base/config_global';
+@import 'base/config_site';
+@import 'base/state';
+
+// Normalize and document imports ---------------------------------------------
+
+@import 'module/normalize';
+@import 'module/doc';
+
+// Module imports -------------------------------------------------------------
+
+//@import 'module/container';
+//@import 'module/font';
+//@import 'module/text';
+//@import 'module/reporting';
+//@import 'module/form';
+//@import 'module/button';
+
+// Vendor imports -------------------------------------------------------------
+
+//@import 'vendor/somestyles';
+
+// Styles ---------------------------------------------------------------------
+
+
+// YOUR STYLES HERE <---------
+
+
+// Print ----------------------------------------------------------------------
+//
+// Inline to avoid the request
+
+@import 'module/print';
+
+
+html,body {
+	background: url(http://subtlepatterns.com/patterns/dark_Tire.png);
+	text-align:center;
+	font-family: Oswald;
+	margin:0;
+	padding:0;
+}
+
+
+h1 {
+	font-size:4rem;
+	color:darkred;
+}
+
+h2 {
+	font-size:2rem;
+	color:#aa9;
+}
+
+p {
+	color: #777;
+}
+
+h1, h2 {
+	
+}
+
+img {
+	border-radius:50%;
+	padding:0 20px;
+	display:inline-block;
+}
+
+.losers {
+	position:relative;
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+}
+
+.loser {
+	display:inline-block;
+	position:relative;
+}
+
+.loser:before {
+		content: 'X';
+		color:#c00;
+		font-family:'Nothing You Could Do';
+		font-size:240px;
+		position:absolute;
+		top:-100px;
+		left:30px;
+	}
+
+
+
+@-webkit-keyframes flamey-flamey {
+0% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+2px -10px 6px #FFDD33, -2px -15px 11px #FF8800,
+2px -25px 18px #FF2200;}
+19% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+2px -10px 6px #FFDD33, -2px -15px 11px #FF8800,
+2px -25px 18px #FF2200;}
+20% {text-shadow: 0 0 4px white, 0 -4px 3px #FFFF44,
+3px -9px 7px #FFDF33, -3px -14px 12px #FF9900,
+3px -24px 19px #FF3300;}
+39% {text-shadow: 0 0 4px white, 0 -4px 3px #FFFF44,
+3px -9px 7px #FFDF33, -3px -14px 12px #FF9900,
+3px -24px 19px #FF3300;}
+40% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+3px -8px 8px #FFFD44, -3px -12px 11px #FF8800,
+2px -25px 20px #FF2200;}
+59% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+3px -8px 8px #FFFD44, -3px -12px 11px #FF8800,
+2px -25px 20px #FF2200;}
+60% {text-shadow: 0 0 5px white, 0 -6px 5px #FFFF55,
+2px -7px 7px #FFDD33, -5px -13px 15px #FF7700,
+4px -24px 19px #FF4411;}
+79% {text-shadow: 0 0 5px white, 0 -6px 5px #FFFF55,
+2px -7px 7px #FFDD33, -5px -13px 15px #FF7700,
+4px -24px 19px #FF4411;}
+80% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+5px -8px 6px #FFEE33, -4px -12px 13px #FF8822,
+2px -26px 18px #FF2200;}
+100% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+ 5px -8px 6px #FFEE33, -4px -12px 13px #FF8822,
+2px -26px 18px #FF2200;}
+}
+
+@-moz-keyframes flamey-flamey {
+0% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+2px -10px 6px #FFDD33, -2px -15px 11px #FF8800,
+2px -25px 18px #FF2200;}
+19% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+2px -10px 6px #FFDD33, -2px -15px 11px #FF8800,
+2px -25px 18px #FF2200;}
+20% {text-shadow: 0 0 4px white, 0 -4px 3px #FFFF44,
+3px -9px 7px #FFDF33, -3px -14px 12px #FF9900,
+3px -24px 19px #FF3300;}
+39% {text-shadow: 0 0 4px white, 0 -4px 3px #FFFF44,
+3px -9px 7px #FFDF33, -3px -14px 12px #FF9900,
+3px -24px 19px #FF3300;}
+40% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+3px -8px 8px #FFFD44, -3px -12px 11px #FF8800,
+2px -25px 20px #FF2200;}
+59% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+3px -8px 8px #FFFD44, -3px -12px 11px #FF8800,
+2px -25px 20px #FF2200;}
+60% {text-shadow: 0 0 5px white, 0 -6px 5px #FFFF55,
+2px -7px 7px #FFDD33, -5px -13px 15px #FF7700,
+4px -24px 19px #FF4411;}
+79% {text-shadow: 0 0 5px white, 0 -6px 5px #FFFF55,
+2px -7px 7px #FFDD33, -5px -13px 15px #FF7700,
+4px -24px 19px #FF4411;}
+80% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+5px -8px 6px #FFEE33, -4px -12px 13px #FF8822,
+2px -26px 18px #FF2200;}
+100% {text-shadow: 0 0 4px white, 0 -5px 4px #FFFF33,
+ 5px -8px 6px #FFEE33, -4px -12px 13px #FF8822,
+2px -26px 18px #FF2200;}
+}
+
+h1{
+-webkit-animation: flamey-flamey 1s infinite;
+  -moz-animation: flamey-flamey 1s infinite;
+}

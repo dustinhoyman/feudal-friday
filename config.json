@@ -1,0 +1,14 @@
+{
+	"browser": "Google Chrome",
+	"editor": "Sublime Text",
+	"minifyHTML": false,
+	"combineMediaQueries": false,
+	"useUncss": false,
+	"uncssIgnore": [],
+	"hint": true,
+	"export_assets": "export",
+	"export_templates": "export",
+	"export_misc": "export",
+	"assemble_templates": true,
+	"template_asset_prefix": ""
+}
